@@ -1,0 +1,10 @@
+query SearchMovies($query: String!) {
+  searchMovies(query: $query) {
+    id
+    name
+    score
+    genres {
+      name
+    }
+  }
+}

@@ -1,0 +1,10 @@
+query getMovie($id: ID!) {
+    movie(id: $id) {
+        id
+        name
+        similar {
+            id
+            name
+        }
+    }
+}
