@@ -36,3 +36,10 @@ In project directory:
 `docker build -t movie-finder .`
 
 `docker run -it --name movie-finder movie-finder`
+
+### Method IV.
+Pull and run from DockerHub.
+
+`docker pull aferoxxynomak/movie-finder`
+
+`docker run -it --name movie-finder aferoxxynomak/movie-finder`
